@@ -55,6 +55,8 @@
 }
 
 #fullcalendar td.fc-day.fc-sat,
-#fullcalendar td.fc-day.fc-sun {
-	background-color: var(--color-background-darker);
+#fullcalendar td.fc-day.fc-sun,
+#fullcalendar th.fc-day-header.fc-sat,
+#fullcalendar th.fc-day-header.fc-sun {
+	background-color: var(--color-background-dark);
 }
