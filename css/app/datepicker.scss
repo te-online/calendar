@@ -92,7 +92,7 @@
 }
 
 #datepicker table tbody button.active {
-	border-radius: 50%;
+	border-radius: var(--border-radius-pill);
 	background-color: $color-primary;
 	color: $color-primary-text;
 	font-weight: bold;
