@@ -325,7 +325,7 @@ ul#calendarlistcontainer {
 
 #datepicker-ng-show-container {
 	display: block !important;
-	height: 185px;
+	height: 205px;
 	overflow: hidden;
 	transition: 200ms ease-in-out all;
 }
@@ -497,6 +497,12 @@ ul.dropdown-menu li > a:hover {
 	font-weight: normal;
 }
 
+.fc-ltr .fc-basic-view .fc-day-number,
+.fc-ltr .fc-basic-view .fc-week-number {
+	padding: 0;
+	padding-right: 3px;
+}
+
 .fc-basic-view .fc-day-top .fc-week-number {
 	background-color: $color-border;
 	color: $color-main-text;
@@ -554,10 +560,11 @@ ul.dropdown-menu li > a:hover {
 .fc-today > .fc-day-number {
 	background: $color-primary;
 	color: $color-primary-text;
+	opacity: 1;
 	border-radius: var(--border-radius-pill);
-	padding: 3px 8px;
+	padding: 4px 8px;
 	min-width: 12px;
-	margin: 3px;
+	margin: -5px;
 	text-align: center;
 	font-weight: bold !important;
 }
