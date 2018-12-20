@@ -355,17 +355,12 @@ ul#calendarlistcontainer {
 
 #app-navigation .davbuttons .button.first {
 	margin-left: 5px;
-	-webkit-border-radius: 3px 0 0 3px;
-	-ms-border-radius: 3px 0 0 3px;
-	border-radius: 3px 0 0 3px;
+	border-radius: var(--border-radius-pill) 0 0 var(--border-radius-pill);
 }
 
 #app-navigation .davbuttons .button.last {
 	margin-left: -8px;
-	-webkit-border-radius: 0 3px 3px 0;
-	-moz-border-radius: 0 3px 3px 0;
-	-ms-border-radius: 0 3px 3px 0;
-	border-radius: 0 3px 3px 0;
+	border-radius: 0 var(--border-radius-pill) var(--border-radius-pill) 0;
 }
 
 .public-calendar-name {
