@@ -118,7 +118,7 @@
 #app-navigation .datepicker-heading,
 #app-navigation .togglebuttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 0 5px;
 	width: calc(100% - 10px);
 }
@@ -146,14 +146,14 @@
 #app-navigation .togglebuttons .icon-view-previous {
 	margin-right: -1px;
 	border-radius: 3px 0 0 3px;
-	flex-grow: 1;
+	flex-grow: 0;
 }
 
 #app-navigation .datepicker-heading .icon-view-next,
 #app-navigation .togglebuttons .icon-view-next {
 	margin-left: -1px;
 	border-radius: 0 3px 3px 0;
-	flex-grow: 1;
+	flex-grow: 0;
 }
 
 #app-navigation .datepicker-heading .icon-view-previous,
