@@ -334,6 +334,34 @@ ul#calendarlistcontainer {
 	height: 0;
 }
 
+div.uib-daypicker {
+	display: flex;
+
+	table {
+		flex: 1;
+
+		tbody {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+
+			tr.uib-weeks {
+				flex: 1;
+				display: flex;
+				width: 100%;
+				justify-content: space-evenly;
+
+				td.uib-day {
+					display: flex;
+					flex: 1;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+		}
+	}
+}
+
 /* Spacing */
 #spacer {
 	height: 44px;

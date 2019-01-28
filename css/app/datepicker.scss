@@ -81,6 +81,7 @@
 	border-radius: 0;
 	border-top: 0;
 	border-left: 0;
+	min-width: 34px;
 }
 
 #datepicker table tbody tr td button {
@@ -148,14 +149,6 @@
 	flex-grow: 1;
 }
 
-#app-navigation .datepicker-heading .button.middle,
-#app-navigation .togglebuttons .button.middle {
-	margin-left: 0;
-	margin-right: 0;
-	border-radius: 0;
-	flex-grow: 2;
-}
-
 #app-navigation .datepicker-heading .icon-view-next,
 #app-navigation .togglebuttons .icon-view-next {
 	margin-left: -1px;
@@ -166,8 +159,4 @@
 #app-navigation .datepicker-heading .icon-view-previous,
 #app-navigation .datepicker-heading .icon-view-next {
 	width: 35px;
-}
-
-#app-navigation .datepicker-heading .button.middle {
-	width: calc(100% - 70px);
 }
