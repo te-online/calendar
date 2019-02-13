@@ -39,5 +39,6 @@ return [
 		['name' => 'contact#searchLocation', 'url' => '/v1/autocompletion/location', 'verb' => 'POST'],
 
 		['name' => 'proxy#proxy', 'url' => '/v1/proxy', 'verb' => 'GET'],
+		['name' => 'rest#getActivityForEvent', 'url' => '/v1/eventactivity/{eventId}', 'verb' => 'GET'],
 	]
 ];
